@@ -7,4 +7,11 @@ setup(
     install_requires=[
         # List your dependencies here
     ],
+
+    entry_points={
+    'console_scripts': [
+        'math_quiz=math_quiz.math_quiz:math_quiz',
+    ],
+    }
+   
 )
